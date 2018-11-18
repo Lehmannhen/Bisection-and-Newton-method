@@ -7,7 +7,7 @@ in this program.
 ## ----------------- Newton's method -----------------------
 Newton's method is an algorithm to find the approximate solution to *f(x) = 0*
 
-The method begins with an initial guess x<sub>0</sub>
+The method begins with an initial guess *x<sub>0</sub>*
 
 ![Newton img](https://raw.githubusercontent.com/Lehmannhen/Bisection-and-Newton-method/master/images/Newton.jpg)
 
