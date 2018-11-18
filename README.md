@@ -5,8 +5,7 @@ find the roots of mathematical functions. The mathematical functions are hard co
 in this program.
 
 ## ----------------- Newton's method -----------------------
-Newton's method is an algorithm to find the approximate solution to $$f(x)=0$$
-![func](https://latex.codecogs.com/gif.latex?f%28x%29%3D0)
+Newton's method is an algorithm to find the approximate solution to *f(x) = 0*
 
 The method begins with an initial guess x<sub>0</sub>
 
