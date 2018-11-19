@@ -49,7 +49,7 @@ is the tolerance.
 Note: in the compile command -lm is used to link the math library.
 
 
-## ----------------- References -----------------------------
+## ----------------- References to images -----------------
 Paul Smith, (2018), Bisection [ONLINE].
 Available at: https://astarmathsandphysics.com/university-maths-notes/numerical-methods/2009-the-bisection-method.html
 [Accessed 19 November 2018].
