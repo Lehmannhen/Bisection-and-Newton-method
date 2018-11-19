@@ -1,8 +1,8 @@
 # Bisection method and Newton's method
 
 This is a C program that implements the Bisection method and the Newton method to
-find the roots of mathematical functions. The mathematical functions are hard coded
-in this program.
+find approximations to the roots of mathematical functions.
+The mathematical functions are hard coded in this program.
 
 ## ----------------- Newton's method ----------------------
 Newton's method is an algorithm to find the approximate solution to *f(x) = 0*
