@@ -31,11 +31,13 @@ If we consider continuous functions there should be a *c* such that *a < c < b* 
 ![Newton img](https://raw.githubusercontent.com/Lehmannhen/Bisection-and-Newton-method/master/images/bisection.jpg)
 
 Once the algorithm knows *a* and *b* it starts by finding the midpoint
-*m = <math>
+*m* =
+
+    <math>
     <mfrac bevelled="true">
         <mfrac>
             <mi> a </mi>
             <mi> b </mi>
         </mfrac>
     </mfrac>
-    </math>*
+    </math>
