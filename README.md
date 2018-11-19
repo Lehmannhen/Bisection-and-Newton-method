@@ -26,15 +26,15 @@ The bisection method is another algorithm to find the approximate solution to *f
 
 This method begins with two initial guesses, *a* and *b*, where *a* is less than the solution
 and *b* is greater than the solution. This can be done by choosing *f(a) < 0* and *f(b) > 0*.
-If we consider continuous functions there should be a *c* such that *a < c < b* and *f(c) = 0*.
+If we consider continuous functions there should be a *p* such that *a < p < b* and *f(p) = 0*.
 
 ![Newton img](https://raw.githubusercontent.com/Lehmannhen/Bisection-and-Newton-method/master/images/bisection.jpg)
 
 Once the algorithm knows *a* and *b* it proceeds as follows:
-* find the midpoint *m = (a + b) / 2*
-* if *f(m) = 0*, the solution is found!
-* if *f(m) < 0*, set *a = m*
-* if *f(m) > 0*, set *b = m*
+* find the midpoint *x<sub>1</sub> = (a + b) / 2*
+* if *f(x<sub>1</sub>) = 0*, the solution is found!
+* if *f(x<sub>1</sub>) < 0*, set *a = x<sub>1</sub>*
+* if *f(x<sub>1</sub>) > 0*, set *b = x<sub>1</sub>*
 
 This procedure is now repeated until either the solution is found or the approximation is within
 some tolerance. Since the solution *c* should lie in the interval *[a, b]* and the length of the
