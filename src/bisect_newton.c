@@ -13,7 +13,6 @@
  * Compile: gcc -g -Wall -o bisect_newton bisect_newton.c -lm
  * Run: ./bisect_newton
  * Henrik Lehmann
- * Student ID: 20495531
  */
 #include <stdio.h>
 #include <math.h>
@@ -85,7 +84,7 @@ double Bisection(double a, double b, double error_tol, int max_iters, int func_i
     
     if (f(a, func_i) * f(b, func_i) > 0) {
         fprintf(stderr, "f(%.1lf) * f(%.1lf) > 0 Bisection method failed\n", a, b);
-        return a - b; /* return a value that is not in the interval*/
+        return a - b; /* return a value that is not in the interval */
     }
     else if (f(a, func_i) == 0) {
         print_result(a, error, iters, converged, func_approx);
