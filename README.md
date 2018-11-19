@@ -30,5 +30,19 @@ If we consider continuous functions there should be a *c* such that *a < c < b* 
 
 ![Newton img](https://raw.githubusercontent.com/Lehmannhen/Bisection-and-Newton-method/master/images/bisection.jpg)
 
-Once the algorithm knows *a* and *b* it starts by:
-* finding the midpoint *m = (a + b) / 2*
+Once the algorithm knows *a* and *b* it proceeds as follows:
+* find the midpoint *m = (a + b) / 2*
+* if *f(m) = 0*, the solution is found!
+* if *f(m) < 0*, set *a = m*
+* if *f(m) > 0*, set *b = m*
+This procedure is now repeated until either the solution is found or the approximation is within
+some tolerance. Since the solution *c* should lie in the interval *[a, b]* and the length of the
+interval gets smaller and smaller with each iteration, we can stop when *b - a <= e* where *e*
+is the tolerance.
+## ------------------------------------------------------------
+
+## ----------------- How to use the program --------------
+compile:  gcc -g -Wall -o bisect_newton bisect_newton.c -lm
+run:         ./bisect_newton
+
+Note: in the compile command -lm is used to link the math library.
