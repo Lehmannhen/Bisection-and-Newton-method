@@ -22,4 +22,12 @@ In general, to get *x<sub>n+1</sub>* the algorithm checks the tangent line at (*
 
 
 ## ----------------- Bisection method ---------------------
+The bisection method is another algorithm to find the approximate solution to *f(x) = 0*.
+
+This method begins with two initial guesses, *a* and *b*, where *a* is less than the solution
+and *b* is greater than the solution. This can be done by choosing *f(a) < 0* and *f(b) > 0*.
+If we consider continuous functions there should be a *c* such that *a < c < b* and *f(c) = 0*.
+
 ![Newton img](https://raw.githubusercontent.com/Lehmannhen/Bisection-and-Newton-method/master/images/bisection.jpg)
+
+Once the algorithm knows *a* and *b* it starts by finding the midpoint *m = <mfrac>a b</mfrac>*
