@@ -35,6 +35,7 @@ Once the algorithm knows *a* and *b* it proceeds as follows:
 * if *f(m) = 0*, the solution is found!
 * if *f(m) < 0*, set *a = m*
 * if *f(m) > 0*, set *b = m*
+
 This procedure is now repeated until either the solution is found or the approximation is within
 some tolerance. Since the solution *c* should lie in the interval *[a, b]* and the length of the
 interval gets smaller and smaller with each iteration, we can stop when *b - a <= e* where *e*
