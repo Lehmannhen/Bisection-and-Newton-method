@@ -42,7 +42,16 @@ is the tolerance.
 ## ------------------------------------------------------------
 
 ## ----------------- How to use the program --------------
-compile:  gcc -g -Wall -o bisect_newton bisect_newton.c -lm
-run:         ./bisect_newton
+* compile:  gcc -g -Wall -o bisect_newton bisect_newton.c -lm
+* run:         ./bisect_newton
 
 Note: in the compile command -lm is used to link the math library.
+
+
+## ----------------- References -----------------------------
+Paul Smith, (2018), Bisection [ONLINE].
+Available at: https://astarmathsandphysics.com/university-maths-notes/numerical-methods/2009-the-bisection-method.html
+[Accessed 19 November 2018].
+
+Quora, (2018), Newton's [ONLINE]. Available at: https://www.quora.com/In-which-cases-is-Newtons-method-not-applicable
+[Accessed 19 November 2018].
