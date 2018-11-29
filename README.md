@@ -4,6 +4,10 @@ This is a C program that implements the Bisection method and the Newton method t
 find approximations to the roots of mathematical functions.
 The mathematical functions are hard coded in this program.
 
+Program run with *f(x) = x^2 - 2*:
+
+![run](https://raw.githubusercontent.com/Lehmannhen/Bisection-and-Newton-method/master/images/tty.gif)
+
 ## ----------------- Newton's method ----------------------
 Newton's method is an algorithm to find the approximate solution to *f(x) = 0*
 
